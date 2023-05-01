@@ -1,0 +1,159 @@
+#BC{
+     width: 100px; 
+     height: 100px; 
+} 
+
+    
+body{
+    background-image: url("../img/maxresdefault.jpg");
+    padding: 0;  
+    margin: 0;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+
+    /* min-width: 90vh;
+    max-width: 100%; */
+
+}  
+.wrapper{
+    width: 100%;
+} 
+ 
+#text{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: larger;
+}
+
+.header{
+    border-bottom: 3px solid #4aaaa5; 
+    color: yellow;
+    padding: 3px; 
+    margin: 3px;
+    
+
+} 
+
+.content{
+    background-color: white;
+} 
+.footer-content{
+    text-align: center;
+    background-color: darkslategrey; 
+    border-top: #4aaaa5 10px solid; 
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}  
+
+.p-img{
+    width: 150px;
+    height: 150px;
+}
+
+.p-title{
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    top: 110px;
+    width: 150px;
+}
+
+.p-content{
+    height: 500px;
+}
+
+.secondary {
+
+    font-size: 25px; 
+    font-weight: bold;  
+    color: yellow;
+  
+}  
+
+#me{
+    color: darkblue;
+}  
+
+#foot{
+    position: fixed; 
+    bottom: 0px;
+    left: 0px; 
+    width: 100%; 
+    margin: 0px;
+}  
+
+@media only screen and ( max-width:500px) { 
+    .wrapper{
+        width: 100%; 
+        margin: auto;
+    }
+    #eagle{
+       max-width: 100%; 
+        height: auto;
+    
+    }  
+    #text{
+        font-size: small;
+    }
+    .d-flex{
+        display: none; 
+    } 
+    .navbar{
+        font-size: small;
+    } 
+    #BC{
+    max-width: 100%;
+    } 
+    .secondary{
+        font-size: small;
+    }
+    #me{
+        font-size: small;
+    }
+}  
+
+@media only screen and ( max-width:700px) {  
+    body{
+        background-image: url("../img/maxresdefault.jpg");
+        /* padding: 0;   */
+        /* margin: 0;   */
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
+        background-size: cover;
+        height: 500px;
+        /* min-width: 90vh;
+        max-width: 100%; */
+    
+    }  
+
+
+    .wrapper{
+        width: 100%;
+        margin: auto; 
+        height: 600px;
+    }
+    
+    #eagle{
+       max-width: 100%; 
+        height: auto;
+    }  
+    #text{
+        font-size: large;
+    }
+    .d-flex{
+        display: none; 
+    } 
+    .navbar{
+        font-size: small;
+    } 
+    #BC{
+    max-width: 100%;
+    } 
+    .secondary{
+        font-size: medium;
+    }
+   
+}  
+
