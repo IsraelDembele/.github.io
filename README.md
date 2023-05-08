@@ -12,7 +12,7 @@ To the top right, you got tree pages, you can click on each word to get inside t
 - Jquery 
 
 ## LINK 
-https://israel81boot.github.io/Portfolio-D/
+https://israeldembele.github.io/portfolio/
 
 ## IMAGES
 
